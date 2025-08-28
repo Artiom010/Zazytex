@@ -1,0 +1,39 @@
+// nuxt.config.ts
+export default defineNuxtConfig({
+  // asigură că e activ SSR (default e true în Nuxt 3, dar îl putem seta explicit)
+  ssr: true,
+
+  devtools: { enabled: true },
+
+  // data compatibilității (o ai deja generată de nuxi)
+  compatibilityDate: "2025-08-28",
+
+  modules: ["@nuxtjs/tailwindcss"],
+
+  css: ["~/assets/css/tailwind.css"],
+
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+
+  app: {
+    head: {
+      title: "FoodShop - Produse alimentare",
+      meta: [
+        {
+          name: "description",
+          content: "E-commerce cu produse alimentare și coș funcțional",
+        },
+        { property: "og:title", content: "FoodShop" },
+        {
+          property: "og:description",
+          content: "Lista de produse alimentare, cumpărături rapide și ușoare",
+        },
+        { property: "og:type", content: "website" },
+      ],
+    },
+  },
+});

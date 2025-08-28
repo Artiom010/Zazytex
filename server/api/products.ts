@@ -1,0 +1,58 @@
+export default defineEventHandler(() => {
+  return [
+    {
+      id: 1,
+      title: "Mere rosii",
+      price: 20,
+      rating: 4.5,
+      producer: "Agro Moldova",
+      stock: 30,
+      image: "https://picsum.photos/400/300?1",
+    },
+    {
+      id: 2,
+      title: "Paine alba",
+      price: 10,
+      rating: 4.2,
+      producer: "Panificatie Chisinau",
+      stock: 50,
+      image: "https://picsum.photos/400/300?2",
+    },
+    {
+      id: 3,
+      title: "Lapte 1L",
+      price: 15,
+      rating: 4.7,
+      producer: "Lapte SA",
+      stock: 40,
+      image: "https://picsum.photos/400/300?3",
+    },
+    {
+      id: 4,
+      title: "Oua 10 buc",
+      price: 22,
+      rating: 4.4,
+      producer: "Fermierul SRL",
+      stock: 25,
+      image: "https://picsum.photos/400/300?4",
+    },
+    {
+      id: 5,
+      title: "Iaurt 400g",
+      price: 12,
+      rating: 4.3,
+      producer: "Lacto MD",
+      stock: 35,
+      image: "https://picsum.photos/400/300?5",
+    },
+    {
+      id: 6,
+      title: "Branza 300g",
+      price: 45,
+      rating: 4.6,
+      producer: "Branzoveni",
+      stock: 18,
+      image: "https://picsum.photos/400/300?6",
+    },
+  ];
+});

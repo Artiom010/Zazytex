@@ -1,0 +1,5 @@
+<template>
+  <footer class="bg-gray-900 text-white text-center p-4 mt-10">
+    © 2025 FoodShop. Toate drepturile rezervate.
+  </footer>
+</template>
