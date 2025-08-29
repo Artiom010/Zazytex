@@ -1,5 +1,6 @@
+
 <template>
-  <div class="fixed top-0 right-0 w-80 max-w-full bg-white shadow-2xl p-4 h-full overflow-y-auto">
+  <div class="fixed top-0 z-50 right-0 w-80 max-w-full bg-white shadow-2xl p-4 h-full overflow-y-auto">
     <div class="flex items-center justify-between mb-4">
       <h2 class="text-lg font-bold">Cosul meu</h2>
       <button class="text-gray-500 hover:text-black" @click="$emit('close')">✕</button>

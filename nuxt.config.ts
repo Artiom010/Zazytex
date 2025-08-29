@@ -1,17 +1,9 @@
-// nuxt.config.ts
 export default defineNuxtConfig({
-  // asigură că e activ SSR (default e true în Nuxt 3, dar îl putem seta explicit)
   ssr: true,
-
   devtools: { enabled: true },
-
-  // data compatibilității (o ai deja generată de nuxi)
   compatibilityDate: "2025-08-28",
-
   modules: ["@nuxtjs/tailwindcss"],
-
   css: ["~/assets/css/tailwind.css"],
-
   postcss: {
     plugins: {
       tailwindcss: {},

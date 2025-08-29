@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur shadow flex items-center justify-between px-4 py-3">
+  <header class="sticky top-0 z-10 bg-white/80 backdrop-blur shadow flex items-center justify-between px-4 py-3">
     <h1 class="font-bold text-xl">🍏 FoodShop</h1>
 
     <button type="button" @click="emit('toggle-cart')" class="relative text-2xl" aria-label="Open cart">
